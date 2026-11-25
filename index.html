@@ -4,11 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#080b12" />
+  <meta name="color-scheme" content="dark" />
   <meta name="description" content="Dhimant Bhardwaj — B.Tech. AI & ML student at VIT Bhopal. Projects, open-source QA, certifications, and achievements." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://dhimantbhardwaj.me/" />
   <meta property="og:title" content="Dhimant Bhardwaj — AI & ML Portfolio" />
   <meta property="og:description" content="AI & ML undergraduate at VIT Bhopal building practical software, AI workflows, and open-source QA solutions." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="profile.webp" />
+  <meta property="og:image" content="https://dhimantbhardwaj.me/assets/dhimant-festival.webp" />
+  <meta property="og:url" content="https://dhimantbhardwaj.me/" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dhimant Bhardwaj — AI &amp; ML Portfolio" />
+  <meta name="twitter:description" content="AI &amp; ML undergraduate at VIT Bhopal building practical software, AI workflows, and open-source QA solutions." />
   <title>Dhimant Bhardwaj — AI & ML Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,13 +25,14 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="noise"></div>
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Dhimant Bhardwaj home">
       <span class="brand-mark">DB</span>
       <span>Dhimant Bhardwaj</span>
     </a>
-    <nav class="nav" aria-label="Primary navigation">
+    <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
@@ -31,10 +40,10 @@
       <a href="#contact">Contact</a>
     </nav>
     <a class="header-cta" href="resume.pdf" target="_blank" rel="noopener">View Resume <span>↗</span></a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation" aria-expanded="false">☰</button>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero section-pad">
       <div class="hero-grid">
         <div class="hero-copy reveal">
@@ -57,7 +66,7 @@
           <div class="hero-card profile-card">
             <div class="card-topline"><span>PROFILE / 2026</span><span>DB</span></div>
             <div class="portrait-wrap">
-              <img class="portrait" src="profile.webp" alt="Dhimant Bhardwaj wearing a black shirt" />
+              <img class="portrait" src="assets/dhimant-festival.webp" alt="Dhimant Bhardwaj smiling in a black shirt" width="1200" height="2016" fetchpriority="high" />
               <div class="portrait-glow"></div>
               <div class="portrait-caption">
                 <span>AI &amp; ML · VIT BHOPAL</span>
