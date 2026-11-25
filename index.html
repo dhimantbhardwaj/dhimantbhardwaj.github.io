@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#080b12" />
   <meta name="color-scheme" content="dark" />
   <meta name="description" content="Dhimant Bhardwaj — B.Tech. AI & ML student at VIT Bhopal. Projects, open-source QA, certifications, and achievements." />
+  <meta name="author" content="Dhimant Bhardwaj" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://dhimantbhardwaj.me/" />
   <meta property="og:title" content="Dhimant Bhardwaj — AI & ML Portfolio" />
@@ -14,15 +15,41 @@
   <meta property="og:image" content="https://dhimantbhardwaj.me/assets/dhimant-festival.webp" />
   <meta property="og:url" content="https://dhimantbhardwaj.me/" />
   <meta property="og:locale" content="en_IN" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image:alt" content="Dhimant Bhardwaj smiling in a black shirt" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="2016" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dhimant Bhardwaj — AI &amp; ML Portfolio" />
   <meta name="twitter:description" content="AI &amp; ML undergraduate at VIT Bhopal building practical software, AI workflows, and open-source QA solutions." />
+  <meta name="twitter:image" content="https://dhimantbhardwaj.me/assets/dhimant-festival.webp" />
+  <meta name="twitter:image:alt" content="Dhimant Bhardwaj smiling in a black shirt" />
   <title>Dhimant Bhardwaj — AI & ML Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dhimant Bhardwaj",
+      "url": "https://dhimantbhardwaj.me/",
+      "image": "https://dhimantbhardwaj.me/assets/dhimant-festival.webp",
+      "jobTitle": "AI & ML Undergraduate",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "VIT Bhopal University"
+      },
+      "sameAs": [
+        "https://github.com/dhimantbhardwaj",
+        "https://linkedin.com/in/dhimantbhardwaj",
+        "https://leetcode.com/u/dhimantbhardwaj"
+      ],
+      "knowsAbout": ["Python", "Artificial Intelligence", "Machine Learning", "Software Testing", "Cloud Computing"]
+    }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -51,8 +78,9 @@
           <h1>Building useful things with <span class="gradient-text">AI, code &amp; curiosity.</span></h1>
           <p class="hero-lead">I’m Dhimant Bhardwaj — an AI &amp; ML student focused on Python, software engineering, data structures, cloud computing, and practical AI-assisted workflows.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
-            <a class="button button-ghost" href="resume.pdf" target="_blank" rel="noopener">Download resume <span>↗</span></a>
+            <a class="button button-primary" href="mailto:dhimantbhardwaj@gmail.com">Email me <span>↗</span></a>
+            <a class="button button-ghost" href="#projects">Explore my work <span>↓</span></a>
+            <a class="button button-ghost" href="resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a>
           </div>
           <div class="social-row" aria-label="Social links">
             <a href="https://github.com/dhimantbhardwaj" target="_blank" rel="noopener">GitHub</a>
@@ -64,7 +92,7 @@
 
         <div class="hero-card-wrap reveal delay-1">
           <div class="hero-card profile-card">
-            <div class="card-topline"><span>PROFILE / 2026</span><span>DB</span></div>
+            <div class="card-topline"><span>PROFILE</span><span>DB</span></div>
             <div class="portrait-wrap">
               <img class="portrait" src="assets/dhimant-festival.webp" alt="Dhimant Bhardwaj smiling in a black shirt" width="1200" height="2016" fetchpriority="high" />
               <div class="portrait-glow"></div>
@@ -91,7 +119,7 @@
         </div>
       </div>
       <div class="hero-stats reveal delay-2">
-        <div><strong>70+</strong><span>LeetCode DSA problems</span></div>
+        <a class="stat-link" href="https://leetcode.com/u/dhimantbhardwaj" target="_blank" rel="noopener" aria-label="View Dhimant's LeetCode profile"><strong>LeetCode</strong><span>View my DSA profile</span></a>
         <div><strong>6</strong><span>End-to-end QA test suites</span></div>
         <div><strong>3</strong><span>Reproducible upstream bug reports</span></div>
         <div><strong>1st</strong><span>Place · Smart VIT Hackathon</span></div>
@@ -130,9 +158,12 @@
           <div class="project-content">
             <div class="tag-row"><span>Python</span><span>PySide6</span><span>PythonOCC</span><span>GitHub</span></div>
             <h3>OsdagBridge Software QA &amp; Open-Source Bug Reporting</h3>
-            <p>Executed 6 end-to-end structural and CAD verification suites covering baseline, custom material, multi-run state persistence, boundary clamping, and .osi YAML serialization workflows.</p>
-            <p>Authored 3 reproducible upstream GitHub bugs (#197, #198, #199) with root-cause diagnostics and code-level fix recommendations.</p>
-            <a class="text-link" href="https://github.com/dhimantbhardwaj" target="_blank" rel="noopener">View GitHub <span>→</span></a>
+            <p>Ran six structural and CAD verification suites across baseline and custom materials, repeat runs, boundary handling, and .osi YAML serialization.</p>
+            <p>Wrote three reproducible upstream bug reports with root-cause diagnostics and code-level fix recommendations.</p>
+            <div class="project-links">
+              <a class="text-link" href="https://github.com/osdag-admin/OsdagBridge" target="_blank" rel="noopener">Upstream project <span>↗</span></a>
+              <a class="text-link" href="https://github.com/search?q=author%3Adhimantbhardwaj&amp;type=issues" target="_blank" rel="noopener">Browse my reports <span>↗</span></a>
+            </div>
           </div>
         </article>
 
@@ -141,17 +172,8 @@
           <div class="project-content">
             <div class="tag-row"><span>Arduino</span><span>Sensors</span><span>IoT</span><span>Hardware</span></div>
             <h3>Automated Waste Segregation System</h3>
-            <p>Built a working multi-sensor waste-segregation prototype with mechanical servo sorting, leading hardware integration, calibration, power management, debugging, and rapid iterative testing during a 24-hour hackathon.</p>
-            <div class="project-badge">🏆 1st Place · Smart VIT Hackathon</div>
-          </div>
-        </article>
-
-        <article class="project-card reveal delay-2">
-          <div class="project-index">03</div>
-          <div class="project-content">
-            <div class="tag-row"><span>Python</span><span>Git</span><span>GitHub</span></div>
-            <h3>AI Course Generator &amp; Python Automation Utilities</h3>
-            <p>Structured an AI-driven course-generation workflow alongside Python desktop utilities, including a notification scheduler and CLI tools, with a focus on modular code design.</p>
+            <p>Built a multi-sensor waste-sorting prototype with servo-driven mechanisms. I led hardware integration, calibration, power management, debugging, and iterative testing during a 24-hour hackathon.</p>
+            <div class="project-badge">1st place · Smart VIT Hackathon · 800+ participants</div>
           </div>
         </article>
       </div>
@@ -169,8 +191,8 @@
           <div class="timeline-date">REMOTE · PAID INTERNSHIP</div>
           <div class="timeline-main">
             <h3>AI Content &amp; Workflow Intern</h3>
-            <p>Managed an end-to-end AI-assisted content production pipeline across YouTube and Instagram, delivering 9 long-form videos and 22 short-form reels.</p>
-            <p>Owned scripting, branding, scheduling, AI voiceover synthesis, and performance analytics using ChatGPT, ElevenLabs, Canva Pro, and DaVinci Resolve.</p>
+            <p>Delivered 9 long-form videos and 22 short-form reels for YouTube and Instagram.</p>
+            <p>Handled scripting, branding, scheduling, AI voiceover production, and performance analytics using ChatGPT, ElevenLabs, Canva Pro, and DaVinci Resolve.</p>
           </div>
         </article>
       </div>

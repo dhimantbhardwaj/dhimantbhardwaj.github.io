@@ -7,6 +7,8 @@ Static portfolio website for Dhimant Bhardwaj.
 - `styles.css` — responsive visual design
 - `script.js` — navigation + reveal animations
 - `resume.pdf` — resume download
+- `assets/dhimant-festival.webp` — optimized profile image
+- `tools/check_site.py` — local link, image-alt, and sitemap checks
 
 ## Deploy with GitHub Pages
 1. Push the site files to the `main` branch of the repository.
@@ -16,3 +18,5 @@ Static portfolio website for Dhimant Bhardwaj.
 5. At Namecheap, configure the DNS records GitHub Pages shows for the domain, then enable HTTPS in Pages after DNS has propagated.
 
 This is a static site: it has no build step or package installation requirement.
+
+GitHub Actions runs the site checks on pushes and pull requests targeting `main`. GitHub Pages publishing remains controlled by the repository's **Settings → Pages** configuration.
